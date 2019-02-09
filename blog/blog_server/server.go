@@ -18,7 +18,7 @@ import (
 
 	"github.com/mongodb/mongo-go-driver/mongo"
 
-	"github.com/simplesteph/grpc-go-course/blog/blogpb"
+	"github.com/wanglianglin/grpc-go-course/blog/blogpb"
 	"google.golang.org/grpc"
 )
 
@@ -219,7 +219,7 @@ func main() {
 
 	fmt.Println("Connecting to MongoDB")
 	// connect to MongoDB
-	client, err := mongo.NewClient("mongodb://localhost:27017")
+	client, err := mongo.NewClient("mongodb://ropeok:i4f8dKdl@localhost:27017")
 	if err != nil {
 		log.Fatal(err)
 	}
